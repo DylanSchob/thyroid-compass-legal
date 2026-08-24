@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Home — Thyroid Compass</title>
+<meta name="description" content="Thyroid Compass — Make sense of your thyroid labs." />
+<style>
+  :root {
+    --accent: #0F766E;
+    --accent-dark: #134E4A;
+    --bg: #fbfaf8;
+    --card: #ffffff;
+    --text: #1c1917;
+    --muted: #78716c;
+    --border: #edeae4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --accent: #5eead4;
+      --accent-dark: #99f6e4;
+      --bg: #0a0a0a;
+      --card: #1c1917;
+      --text: #fafaf9;
+      --muted: #a8a29e;
+      --border: #2d2b27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: linear-gradient(135deg, #0F766E, #134E4A);
+    color: #fff;
+    padding: 40px 24px;
+  }
+  header .inner { max-width: 760px; margin: 0 auto; }
+  header a { color: #fff; text-decoration: none; }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: -0.3px; }
+  header p { margin: 6px 0 0; opacity: 0.85; font-size: 15px; }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1, h2, h3 { line-height: 1.25; letter-spacing: -0.2px; }
+  main > h1 { font-size: 30px; margin-top: 0; }
+  h2 {
+    font-size: 21px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  h3 { font-size: 17px; margin-top: 28px; }
+  a { color: var(--accent); }
+  code {
+    background: var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  blockquote {
+    margin: 20px 0;
+    padding: 14px 18px;
+    background: var(--card);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    color: var(--muted);
+  }
+  hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .back {
+    display: inline-block;
+    margin-bottom: 24px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .cards { display: grid; gap: 14px; margin-top: 28px; }
+  .card {
+    display: block;
+    padding: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .card strong { display: block; font-size: 17px; margin-bottom: 4px; }
+  .card span { color: var(--muted); font-size: 14px; }
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <a href="./"><h1>Thyroid Compass</h1></a>
+    <p>Make sense of your thyroid labs.</p>
+  </div>
+</header>
+<main>
+
+
+<h1>Make sense of your thyroid labs.</h1>
+<p>
+  Thyroid Compass helps people with Hashimoto's, hypothyroidism, Graves'
+  disease, and post-thyroidectomy make sense of their lab results — tracking
+  markers over time, spotting patterns alongside symptoms, and preparing for
+  appointments.
+</p>
+<p style="color:var(--muted);font-size:15px">
+  Thyroid Compass is a wellness tool, not a medical device. It does not
+  diagnose or treat any condition. Always discuss your results with a
+  qualified healthcare provider.
+</p>
+
+<div class="cards">
+  <a class="card" href="./privacy.html">
+    <strong>Privacy Policy</strong>
+    <span>What we collect, where it's stored, and the control you have over it.</span>
+  </a>
+  <a class="card" href="./terms.html">
+    <strong>Terms of Service</strong>
+    <span>Subscription terms, medical disclaimers, and acceptable use.</span>
+  </a>
+  <a class="card" href="mailto:support@thyroidcompass.app">
+    <strong>Support</strong>
+    <span>support@thyroidcompass.app</span>
+  </a>
+</div>
+
+</main>
+<footer>
+  <p>Questions? <a href="mailto:support@thyroidcompass.app">support@thyroidcompass.app</a></p>
+</footer>
+</body>
+</html>
